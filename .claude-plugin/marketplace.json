@@ -1,0 +1,17 @@
+{
+  "name": "sixjames1000-tools",
+  "description": "Claude Code mods by sixjames1000.",
+  "owner": {
+    "name": "sixjames1000"
+  },
+  "plugins": [
+    {
+      "name": "context-bar",
+      "source": "./context-bar"
+    },
+    {
+      "name": "caveman-indicator",
+      "source": "./caveman-indicator"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "context-bar",
+  "version": "0.1.0",
+  "description": "Shows how much of the context window is in use.",
+  "author": {
+    "name": "sixjames1000"
+  }
+}
