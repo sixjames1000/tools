@@ -1,0 +1,6 @@
+{
+  "name": "caveman-indicator",
+  "version": "0.1.0",
+  "description": "Shows the caveman skill's mode (off, caveman, ultra, wenyan) in the footer's mode bar",
+  "types": "./types/index.d.ts"
+}

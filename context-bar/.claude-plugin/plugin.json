@@ -1,0 +1,38 @@
+{
+  "name": "context-bar",
+  "version": "0.1.0",
+  "description": "One bar above the prompt: context used, what each turn re-reads from cache vs fresh, cache warm/cold with time left, and a hold before a cold rewrite.",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "cacheTtlMinutes": {
+      "type": "number",
+      "title": "Cache lifetime (minutes)",
+      "description": "Idle time after which the prompt cache is treated as cold.",
+      "default": 60
+    },
+    "holdMinTokensK": {
+      "type": "number",
+      "title": "Hold above (k tokens)",
+      "description": "Only hold a prompt when at least this much context would be rewritten.",
+      "default": 100
+    },
+    "warnAtK": {
+      "type": "number",
+      "title": "Context warning (k tokens)",
+      "description": "Toast and turn the bar yellow past this size.",
+      "default": 300
+    },
+    "alertAtK": {
+      "type": "number",
+      "title": "Context alert (k tokens)",
+      "description": "Toast and turn the bar red past this size.",
+      "default": 500
+    },
+    "handoffCommand": {
+      "type": "string",
+      "title": "Hand off command",
+      "description": "Put in the prompt by the Hand off first button.",
+      "default": "/anthropic-skills:handoff"
+    }
+  }
+}

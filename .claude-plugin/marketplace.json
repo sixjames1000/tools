@@ -1,0 +1,17 @@
+{
+  "name": "tools",
+  "description": "sixjames1000's Claude Code mods",
+  "owner": { "name": "sixjames1000" },
+  "plugins": [
+    {
+      "name": "context-bar",
+      "source": "./context-bar",
+      "description": "A bar above the prompt: context used and its share of the window, what the next turn re-reads from cache, cache warm/cold with time left, the 5-hour limit, and colours you pick"
+    },
+    {
+      "name": "caveman-indicator",
+      "source": "./caveman-indicator",
+      "description": "Shows the caveman skill's mode (off, caveman, ultra, wenyan) in the status line and the footer's mode bar"
+    }
+  ]
+}
